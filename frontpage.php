@@ -19,7 +19,7 @@
 				<a href="#contato"> Entrar em contato</a>
 			</button>
 		</div>
-	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg ">
+	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg " alt="imagem logo">
 	</div>
 		<div class="banner">
 		<div class="textos">
@@ -33,7 +33,7 @@
 				<a href="#contato"> Entrar em contato</a>
 			</button>
 		</div>
-	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg ">
+	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg " alt="imagem logo">
 	</div>
 		<div class="banner">
 		<div class="textos">
@@ -47,7 +47,7 @@
 				<a href="#contato"> Entrar em contato</a>
 			</button>
 		</div>
-	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg ">
+	<img src="<?php echo get_home_url()?>/wp-content/uploads/2025/02/image-1.jpg " alt="imagem logo">
 	</div>
 </section>
 <section class="projetos-home">
@@ -112,7 +112,7 @@
         ?>
     </div>
     <div class="ver-mais-box">
-    <a class="veja-mais" href="<?php echo get_home_url()?>/?page_id=14">Veja mais</a>
+    <a class="veja-mais" href="<?php echo get_home_url()?>/?page_id=14" aria-label="Botão para página de projetos">Veja mais</a>
 	</div>
 </section>
 	<section id="contato">

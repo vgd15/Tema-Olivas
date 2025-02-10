@@ -14,21 +14,21 @@
 <html <?php language_attributes(); ?>> <!--<![endif]-->
 
 <head>
-	<meta charset="<?php  bloginfo('charset'); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<title><?php wp_title('|', true, 'right');?> <?php //bloginfo('name');?></title>
-	<meta name="description" content="">
-	<meta name="author" content="Twenty">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style-olivas2.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-<?php wp_head(); ?>
     
+    <title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+    
+    <meta name="description" content="Uma agência digital com tudo que sua empresa precisa gerar resultados: planejamento, criação, desenvolvimento e marketing digital">
+    <meta name="author" content="Twenty">
+
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style-olivas2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+   
+    <?php wp_head(); ?>
 </head>
+
 <header>
             <section id="wrapper-menu">
                <div class="container">

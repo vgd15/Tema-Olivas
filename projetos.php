@@ -28,7 +28,7 @@
 
         <!-- BOTÃO "VER MAIS" -->
         <div class="ver-mais-box">
-            <button id="load-more" class="veja-mais" data-page="1" style="display:none;">Veja mais</button>        
+            <button id="load-more" class="veja-mais" data-page="1" style="display:none;" aria-label="Ver mais">Veja mais</button>        
         </div>
     </div>
 </div>

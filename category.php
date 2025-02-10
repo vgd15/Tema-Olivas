@@ -9,7 +9,7 @@ get_header(); ?>
 
 <main id="ts-content" class="content-int single-cont">
     <div class="container">
-        <h1>Todos os Posts da Categoria</h1>
+        <h1>Todos os Posts da</h1>
         <?php
         // Obtém a categoria via parâmetro da URL (?cat=ID)
         $category_id = get_query_var('cat');

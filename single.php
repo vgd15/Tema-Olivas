@@ -39,7 +39,7 @@
 
         if ($link) {
 			echo '<div class="link-externo">';
-            echo '<a class="link-externo" href="' . esc_html($link) . '">Link externo</p>';
+            echo '<a class="link-externo" href="' . esc_html($link) . '" aria-label="Link externo">Link externo</p>';
 			echo  '</div>';
         }
 			?>	

@@ -49,6 +49,12 @@ function register_my_menus() {
 }
 add_action('init', 'register_my_menus');
 
+function olivas_setup() {
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'olivas_setup');
+
+
 //ajax
 function carregar_ajax_scripts() {
     wp_enqueue_script('ajax-scripts', get_template_directory_uri() . '/assets/js/script.js', array('jquery'), null, true);
@@ -148,6 +154,12 @@ function obter_total_paginas() {
 
 add_action('wp_ajax_obter_total_paginas', 'obter_total_paginas');
 add_action('wp_ajax_nopriv_obter_total_paginas', 'obter_total_paginas');
+
+//removendo css para melhorar desempenho
+function remover_estilos_inuteis() {
+    wp_dequeue_style('wp-block-library');
+}
+add_action('wp_enqueue_scripts', 'remover_estilos_inuteis', 100);
 
 
 ?>
